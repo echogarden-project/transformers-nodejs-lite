@@ -1,24 +1,24 @@
 /**
  * @file Module used to configure Transformers.js.
- * 
+ *
  * **Example:** Disable remote models.
  * ```javascript
  * import { env } from '@xenova/transformers';
  * env.allowRemoteModels = false;
  * ```
- * 
+ *
  * **Example:** Set local model path.
  * ```javascript
  * import { env } from '@xenova/transformers';
  * env.localModelPath = '/path/to/local/models/';
  * ```
- * 
+ *
  * **Example:** Set cache directory.
  * ```javascript
  * import { env } from '@xenova/transformers';
  * env.cacheDir = '/path/to/cache/directory/';
  * ```
- * 
+ *
  * @module env
  */
 
