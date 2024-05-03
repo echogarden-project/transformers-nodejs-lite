@@ -4,5 +4,5 @@ import * as ONNX_NODE from 'onnxruntime-node'
 export const ONNX = ONNX_NODE
 
 export const executionProviders = [
-    'wasm'
+    'cpu'
 ]
