@@ -1,7 +1,8 @@
 .vscode
+.cache
 node_modules
 
-# Do not track build artifacts/generated files
 /dist
 /types
 /models
+/simple-tests
