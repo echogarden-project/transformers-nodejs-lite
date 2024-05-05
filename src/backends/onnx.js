@@ -6,3 +6,5 @@ export const ONNX = ONNX_NODE.default
 export const executionProviders = [
     'cpu'
 ]
+
+export const logSeverityLevel = 3

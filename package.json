@@ -1,6 +1,6 @@
 {
 	"name": "@echogarden/transformers-nodejs-lite",
-	"version": "2.17.1-lite.2",
+	"version": "2.17.1-lite.3",
 	"description": "A highly reduced fork of the Xenova JavaScript port of 🤗 transformers. Node.js only, with a lot of functionality removed.",
 	"main": "./src/transformers.js",
 	"types": "./types/transformers.d.ts",
