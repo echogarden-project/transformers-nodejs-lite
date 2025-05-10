@@ -50,6 +50,9 @@ export class Tensor {
     /** @type {number} The number of elements in the tensor. */
     size;
 
+    /** @type {string} The location of the tensor data. */
+    location;
+
     /**
      * Create a new Tensor or copy an existing Tensor.
      * @param {[DataType, DataArray, number[]]|[import('onnxruntime-common').Tensor]} args
@@ -76,6 +79,8 @@ export class Tensor {
         if (!this.data && onnxTensor.cpuData) {
             this.data = onnxTensor.cpuData
         }
+
+        this.location = onnxTensor.location
 
         return new Proxy(this, {
             get: (obj, key) => {
